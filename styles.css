@@ -73,7 +73,7 @@ header {
 .features {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
   width: 100%;
   background: linear-gradient(
     to bottom,
@@ -90,6 +90,7 @@ header {
 footer {
   text-align: center;
   position: fixed;
+  bottom: 0;
   width: 100%;
   background: #8d2100;
   color: #ffffff;
