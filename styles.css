@@ -11,16 +11,16 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #000000;
-  color: #80d181;
+  background-color: #720068;
+  color: #ffffff;
 }
 .boton {
-  border: 2px solid #80d181; /* Borde sólido de 2px y color gris oscuro */
-  background-color: #ffffff; /* Fondo blanco */
-  color: #333; /* Texto gris oscuro */
-  padding: 10px 20px; /* Espaciado interno */
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  border: 3px dotted #80d181;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 header {
@@ -28,10 +28,9 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000000;
-  color: #80d181;
-  border: 5px dotted #80d181;
-  border-radius: 15px;
+  background: #8d2100;
+  color: #ffffff;
+  border: 5px dotted #ffffff;
   padding: 10px 20px;
   z-index: 1000;
 }
@@ -39,7 +38,14 @@ header {
 .content {
   margin-top: 100px;
   width: 100%;
-  border: 5px dotted #80d181;
+  background: linear-gradient(
+    to bottom,
+    #720068 0%,
+    #54005f 25%,
+    #54005f 75%,
+    #720068 100%
+  );
+  border: 5px dotted #ffffff;
   border-radius: 15px;
   padding: 10px 20px;
 }
@@ -58,8 +64,8 @@ header {
 
 .features {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 10%;
+  margin-top: 50px;
+  margin-bottom: 16%;
   width: 100%;
   border: 5px dotted #80d181;
   border-radius: 15px;
@@ -70,10 +76,9 @@ footer {
   text-align: center;
   position: fixed;
   width: 100%;
-  background-color: #000000;
-  color: #80d181;
-  border: 5px dotted #80d181;
-  border-radius: 15px;
+  background: #8d2100;
+  color: #ffffff;
+  border: 5px dotted #ffffff;
   padding: 10px 20px;
   z-index: 1000;
 }
