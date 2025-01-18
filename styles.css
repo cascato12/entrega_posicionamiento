@@ -58,16 +58,30 @@ header {
   padding-left: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 5px dotted #80d181;
+  background: linear-gradient(
+    to bottom,
+    #720068 0%,
+    #54005f 20%,
+    #54005f 80%,
+    #720068 100%
+  );
+  border: 5px dotted #ffffff;
   border-radius: 15px;
 }
 
 .features {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 16%;
+  margin-bottom: 15%;
   width: 100%;
-  border: 5px dotted #80d181;
+  background: linear-gradient(
+    to bottom,
+    #720068 0%,
+    #54005f 10%,
+    #54005f 90%,
+    #720068 100%
+  );
+  border: 5px dotted #ffffff;
   border-radius: 15px;
   padding: 10px 20px;
 }
